@@ -1,0 +1,26 @@
+{
+  "name": "http-client-request-retry",
+  "version": "0.0.1",
+  "description": "http client request retry、请求重试",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iskeeping/http-client-request-retry.git"
+  },
+  "keywords": [
+    "http",
+    "client",
+    "request",
+    "retry",
+    "请求重试"
+  ],
+  "author": "iskeeping",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iskeeping/http-client-request-retry/issues"
+  },
+  "homepage": "https://github.com/iskeeping/http-client-request-retry#readme"
+}
