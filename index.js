@@ -46,7 +46,7 @@ function _recursion(promise, resolve, reject, count, totalCount, millisecond) {
 function httpClientRequestRetry(promise, totalCount, millisecond) {
     return new Promise((resolve, reject) => {
         let count = 1
-        promise().then((res) => {
+        promise.then((res) => {
             resolve(res)
         }).catch((err) => {
             if (count >= totalCount) {

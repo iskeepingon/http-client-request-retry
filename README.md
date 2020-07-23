@@ -1,7 +1,7 @@
 ## 安装
 
 ```
-npm install httpClientRequestRetry --save
+npm install httpClientRequestRetry
 ```
 
 ## 用法
@@ -24,7 +24,7 @@ httpClientRequestRetry(promise, totalCount, millisecond)
 
 | TYPE | 描述 |
 | :-----| :---- |
-| Promise实例 | 返回一个Promise实例 |
+| Promise | 返回一个Promise实例 |
 
 ## 例子
 
@@ -52,7 +52,7 @@ function query() {
 /**
  * @function 发起一个请求，最多请求五次，如果五次还不成功，就结束
  */
-httpClientRequestRetry(query, 5, 1000)
+httpClientRequestRetry(query(), 5, 1000)
   .then((res) => {
     console.log(res)
   }).catch((err) => {

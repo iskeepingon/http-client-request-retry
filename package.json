@@ -1,6 +1,6 @@
 {
   "name": "http-client-request-retry",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "http client request retry、请求重试",
   "main": "index.js",
   "scripts": {
